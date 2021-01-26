@@ -1,0 +1,145 @@
+/*...................................................... direct elements.....................................................*/
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5rem;
+    
+    line-height: 1.5;
+    
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+
+    line-height: 1.5;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 5%;
+}
+p{
+    color: grey;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+
+#title{
+    background-color:#ff4c68 ;
+    color: white;
+}
+/*..........................................................Navigation bar.....................................................*/
+.navbar{
+    padding-bottom: 40px;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.nav-link{
+    font-size: 25px;
+    
+}
+/*.......................................................ALL IDs...........................................................*/
+
+    
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+   
+}
+
+#last{
+    background-color: #ff4c68;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+    padding: 7% 15%; 
+
+}
+
+#footer{
+    text-align: center;
+   
+    padding: 7% 15%;
+}
+
+
+#testimonials{
+   
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 5%;
+}
+#pricing{
+    padding: 100px;
+}
+/*..............................................................................................................................*/
+.carousel-item{
+    padding: 4% 15%;
+}
+
+
+.easy{
+    text-align: center;
+    padding: 5%;
+}
+
+@media (max-width: 992px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        margin-left: 0%;
+    }
+}
+
+
+.social{
+    margin: 20px 10px;
+}
+
+.download-button{
+    margin:  5% 5% 5% auto;
+}
+.title-image{
+    
+    margin-left: 30%;
+    transform: rotate(0deg);   
+}
+.box{
+    text-align: center;
+    padding: 5%;
+}
+.icon{
+    color: #ff4c68;
+}
+.icon:hover{
+    color: #ef8172;
+}
+.testi-image{
+    border-radius: 100%;
+    margin: 30px;
+}
